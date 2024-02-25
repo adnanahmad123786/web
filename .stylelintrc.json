@@ -1,0 +1,54 @@
+{
+<<<<<<< HEAD
+    "extends": ["stylelint-config-standard"],
+    "plugins": ["stylelint-scss", "stylelint-csstree-validator"],
+    "rules": {
+      "at-rule-no-unknown": null,
+      "scss/at-rule-no-unknown": [
+        true,
+        {
+          "ignoreAtRules": [
+            "tailwind",
+            "apply",
+            "variants",
+            "responsive",
+            "screen"
+          ]
+        }
+      ]
+    },
+    "csstree/validator": true,
+    "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css"]
+  }
+=======
+    "extends": [
+        "stylelint-config-standard"
+    ],
+    "plugins": [
+        "stylelint-scss",
+        "stylelint-csstree-validator"
+    ],
+    "rules": {
+        "at-rule-no-unknown": null,
+        "scss/at-rule-no-unknown": [
+            true,
+            {
+                "ignoreAtRules": [
+                    "tailwind",
+                    "apply",
+                    "variants",
+                    "responsive",
+                    "screen"
+                ]
+            }
+        ]
+    },
+    "csstree/validator": true,
+    "ignoreFiles": [
+        "build/**",
+        "dist/**",
+        "**/reset*.css",
+        "**/bootstrap*.css"
+    ]
+}
+>>>>>>> 86244900b30267948b3524716454bb97026bc10f
